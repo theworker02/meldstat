@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meldstat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meld config/stat key checks for twelve-factor services.",
+  "bin": {
+    "meldstat": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meldstat.git"
+  },
+  "homepage": "https://theworker02.github.io/meldstat/",
+  "keywords": [
+    "meld",
+    "stat",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
